@@ -1,0 +1,22 @@
+{
+    "metadata": {
+      "name": "kbaum-k8s-pool-3",
+      "namespace": "k-baum",
+      "labels": {},
+      "annotations": {},
+      "description": "kbaum-k8s-pool-3",
+      "disable": false
+    },
+    "spec": {
+      "origin_servers": [
+        null
+      ],
+      "no_tls": {},
+      "port": 8080,
+      "same_as_endpoint_port": {},
+      "healthcheck": [],
+      "loadbalancer_algorithm": "LB_OVERRIDE",
+      "endpoint_selection": "LOCAL_PREFERRED"
+    },
+    "resource_version": "1100189943"
+  }

@@ -1,0 +1,35 @@
+{
+    "metadata": {
+      "name": "kbaum-k8s-pool-3",
+      "namespace": "k-baum",
+      "labels": {},
+      "annotations": {},
+      "description": "kbaum-k8s-pool-3",
+      "disable": false
+    },
+    "spec": {
+      "origin_servers": [
+        {
+          "k8s_service": {
+            "service_name": "kbaum-workload3.k-baum:kbaum-cluster",
+            "site_locator": {
+              "virtual_site": {
+                "tenant": "f5-amer-ent-qyyfhhfj",
+                "namespace": "k-baum",
+                "name": "kbaum-re-site",
+                "kind": "virtual_site"
+              }
+            },
+            "vk8s_networks": {}
+          },
+          "labels": {}
+        }
+      ],
+      "no_tls": {},
+      "port": 8080,
+      "same_as_endpoint_port": {},
+      "healthcheck": [],
+      "loadbalancer_algorithm": "LB_OVERRIDE",
+      "endpoint_selection": "LOCAL_PREFERRED"
+    }
+  }

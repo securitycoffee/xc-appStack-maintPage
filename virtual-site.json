@@ -1,0 +1,18 @@
+{
+    "metadata": {
+      "name": "kbaum-re-site",
+      "namespace": "k-baum",
+      "labels": {},
+      "annotations": {},
+      "description": "RE hosted k8s app",
+      "disable": false
+    },
+    "spec": {
+      "site_type": "REGIONAL_EDGE",
+      "site_selector": {
+        "expressions": [
+          "ves.io/siteName in (ves-io-wes-sea, ves-io-ny8-nyc)"
+        ]
+      }
+    }
+  }
