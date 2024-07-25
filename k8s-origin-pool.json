@@ -14,7 +14,7 @@
             "service_name": "kbaum-workload3.k-baum:kbaum-cluster",
             "site_locator": {
               "virtual_site": {
-                "tenant": "f5-amer-ent-qyyfhhfj",
+                "tenant": "<xc tenant>",
                 "namespace": "k-baum",
                 "name": "kbaum-re-site",
                 "kind": "virtual_site"

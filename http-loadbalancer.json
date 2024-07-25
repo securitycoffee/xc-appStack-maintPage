@@ -9,7 +9,7 @@
     },
     "spec": {
       "domains": [
-        "appsechero-k8s-2.amer-ent.f5demos.com"
+        "<insert your FQDN>"
       ],
       "https_auto_cert": {
         "http_redirect": true,
@@ -37,7 +37,7 @@
       "default_route_pools": [
         {
           "pool": {
-            "tenant": "f5-amer-ent-qyyfhhfj",
+            "tenant": "<xc tenant>",
             "namespace": "k-baum",
             "name": "kbaum-k8s-pool-3",
             "kind": "origin_pool"
@@ -74,7 +74,7 @@
       "auto_cert_info": {
         "auto_cert_state": "CertificateValid",
         "auto_cert_expiry": "2024-09-16T20:29:35Z",
-        "auto_cert_subject": "CN=appsechero-k8s-2.amer-ent.f5demos.com",
+        "auto_cert_subject": "<none of your business>",
         "auto_cert_issuer": "CN=E6,O=Let's Encrypt,C=US",
         "dns_records": []
       },

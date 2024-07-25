@@ -14,11 +14,11 @@
           {
             "name": "nginx-unprivileged",
             "image": {
-              "name": "kbaumreg.azurecr.io/nginx-unprivileged:v1",
+              "name": "<your container repo name>/nginx-unprivileged:v1",
               "container_registry": {
-                "tenant": "f5-amer-ent-qyyfhhfj",
+                "tenant": "<xc tenant>",
                 "namespace": "k-baum",
-                "name": "kbaum-azure-cr",
+                "name": "<your container repo name>",
                 "kind": "container_registry"
               },
               "pull_policy": "IMAGE_PULL_POLICY_ALWAYS"
@@ -34,7 +34,7 @@
           "deploy_re_virtual_sites": {
             "virtual_site": [
               {
-                "tenant": "f5-amer-ent-qyyfhhfj",
+                "tenant": "<xc tenant>",
                 "namespace": "k-baum",
                 "name": "kbaum-re-site",
                 "kind": "virtual_site"
